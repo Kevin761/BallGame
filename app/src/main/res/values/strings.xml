@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">BallGame</string>
+    <string name="player_lose">Try Again!</string>
 </resources>

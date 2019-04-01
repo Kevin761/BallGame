@@ -11,6 +11,7 @@ import android.view.View;
 
 public class Route extends View {
     Paint route;
+    BallActivity ballActivity;
 
 
 
@@ -39,8 +40,8 @@ public class Route extends View {
 
                 });
 
-        canvas.drawLine(getWidth()*2/10, getHeight()*15/20, getWidth()*3/10, getHeight()*15/20, route);
         route.setStrokeWidth(15);
+        canvas.drawLine(getWidth()*2/10, getHeight()*15/20, getWidth()*3/10, getHeight()*15/20, route);
         route.setStyle(Paint.Style.FILL);
 
 
